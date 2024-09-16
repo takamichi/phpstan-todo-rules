@@ -1,0 +1,21 @@
+{
+    "name": "takamichi/phpstan-todo-rules",
+    "type": "phpstan-extention",
+    "license": "MIT",
+    "minimum-stability": "stable",
+    "require": {
+        "php": "^8.2",
+        "phpstan/phpstan": "^1.12"
+    },
+    "require-dev": {
+        "nikic/php-parser": "^5.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Takamichi\\PhpstanTodoRules\\": "src/"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
